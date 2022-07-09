@@ -1,7 +1,7 @@
 # auto_keystroke
  Automate synced key presses on two computers
  
- This is currently a prototype! Only sends Q and E triggered by a Y keypress
+ This is currently a prototype! What it does is just to trigger one single key press on each of the two computers, initiated by one key from the sender.
  
  Requires Max/MSP and Java SDK
  
