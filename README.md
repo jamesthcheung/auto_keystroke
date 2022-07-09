@@ -19,8 +19,8 @@
  8. Testing for key presses is now done. Turn off toggle in step 6.
  9. Press the button to send a ping to the auto_keystroke_receive patch opened on another computer.
  10. The latency is now shown in the number box. Leave it as it is unless it doesn't work.
- 11. Run a latency test in your game and enter the ping time in the number box.
- 12. Enter the receiving computer's ping time in game.
+ 11. Run a latency test in your desired external server and enter the ping time in the number box.
+ 12. Enter the receiving computer's ping time in the server.
  13. All done. Turn on the toggle and see if everything works!
  
 ## Instructions for auto_keystroke_receive
