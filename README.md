@@ -6,6 +6,7 @@
  Requires Max/MSP and Java SDK
  
  Make sure the repository is cloned within the Max search path, or put /java/ into the Max Library folder.
+ [mxj autobot source](https://sites.google.com/site/theoldmanthesea/download/)
  
 ## Instructions for auto_keystroke_send
  To be opened with the computer doing the trigger
