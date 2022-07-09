@@ -40,6 +40,54 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 3,
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-9",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 175.0, 223.0, 148.0, 25.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 174.0, 223.0, 123.0, 25.0 ],
+					"text" : "8. Turn off toggle"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 3,
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-5",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 230.5, 143.0, 148.0, 25.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 174.0, 131.0, 123.0, 25.0 ],
+					"text" : "5. Turn off toggle"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"arrow_orientation" : 2,
+					"id" : "obj-1",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 256.0, 378.0, 24.0, 35.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 304.0, 139.5, 16.0, 30.0 ],
+					"shape" : 3
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-92",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -335,13 +383,14 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-86",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 320.5, 527.0, 131.0, 25.0 ],
+					"patching_rect" : [ 320.5, 527.0, 131.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 24.0, 537.0, 267.0, 25.0 ],
-					"text" : "11. Turn on trigger"
+					"text" : "13. Turn on trigger"
 				}
 
 			}
@@ -436,7 +485,7 @@
 					"patching_rect" : [ 586.0, 643.0, 232.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 24.0, 468.5, 232.0, 25.0 ],
-					"text" : "10. Enter receiver's latency in game"
+					"text" : "12. Enter receiver's latency in game"
 				}
 
 			}
@@ -462,13 +511,14 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-70",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 586.0, 600.0, 195.0, 25.0 ],
+					"patching_rect" : [ 586.0, 600.0, 195.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 24.0, 426.0, 232.0, 25.0 ],
-					"text" : "9. Enter your latency in game"
+					"text" : "11. Enter your latency in game"
 				}
 
 			}
@@ -479,13 +529,14 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-68",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 586.0, 551.0, 197.0, 25.0 ],
+					"patching_rect" : [ 586.0, 551.0, 197.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 33.5, 382.5, 222.5, 25.0 ],
-					"text" : "8. Fine tune latency (optional)"
+					"text" : "10. Fine tune latency (optional)"
 				}
 
 			}
@@ -720,7 +771,7 @@
 					"patching_rect" : [ 606.0, 104.0, 197.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 24.0, 313.0, 267.0, 25.0 ],
-					"text" : "7. Ping receiver to get latency"
+					"text" : "9. Ping receiver to get latency"
 				}
 
 			}
@@ -770,7 +821,7 @@
 					"patching_rect" : [ 36.5, 527.0, 121.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 33.5, 208.0, 232.0, 25.0 ],
-					"text" : "5. Testing output"
+					"text" : "6. Testing output"
 				}
 
 			}
@@ -799,7 +850,7 @@
 					"patching_rect" : [ 59.0, 783.0, 191.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 33.5, 255.5, 232.0, 25.0 ],
-					"text" : "6. Test output key code for Q"
+					"text" : "7. Test output key code for Q"
 				}
 
 			}
@@ -882,13 +933,14 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-41",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 68.0, 418.0, 148.0, 25.0 ],
+					"patching_rect" : [ 68.0, 418.0, 148.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 33.5, 157.5, 232.0, 25.0 ],
-					"text" : "4. Test Y key selector"
+					"presentation_rect" : [ 33.5, 171.0, 232.0, 25.0 ],
+					"text" : "4. Press Y once to update"
 				}
 
 			}
@@ -902,7 +954,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 235.0, 418.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 274.0, 159.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 274.0, 172.5, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 28 ],
