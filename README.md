@@ -1,7 +1,10 @@
 # auto_keystroke
  Automate synced key presses on two computers
+ 
  This is currently a prototype! Only sends Q and E triggered by a Y keypress
+ 
  Requires Max/MSP and Java SDK
+ 
  Make sure the repository is cloned within the Max search path, or put /java/ into the Max Library folder.
  
 ## Instructions for auto_keystroke_send
